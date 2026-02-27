@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div>dynamic  profile page</div>
+    <div>shop</div>
   )
 }
 
