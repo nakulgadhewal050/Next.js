@@ -1,12 +1,16 @@
-import React from 'react'
+'use client'
 
-async function page() {
-  await new Promise((resolve) => setTimeout(resolve, 2000))
+import React from 'react'
+import { useState } from 'react'
+
+  function Home() {
+const [name, setName] = useState("nakul")
   return (
     <div>
       page
+      {name}
     </div>
   )
 }
 
-export default page
+export default Home
