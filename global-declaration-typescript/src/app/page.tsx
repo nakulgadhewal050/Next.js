@@ -9,6 +9,7 @@ function Page() {
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault()
+    console.log(input.current?.value)
   } 
 
   return (
